@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DataBase Control</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id = "In" action="Insertjsp.jsp" Name = "Insert">
+            <h1>Insert To DataBase</h1>
+            Name : <input type="text" name="Name" value="" size="60" />
+            <br>
+            GPA : &ensp;<input type="text" name="GPA" value="" />
+            <br>
+            &emsp;&emsp;&emsp;&nbsp;<input type="submit" value="Insert" name="InsertButton" />
+        </form>
+        <br>
+        <form id = "Ud" action="Sc" Name = "Update">
+            <h1>Update from DataBase</h1>
+            Select Update Name : <input type="text" name="OlderName1" value="" size="60" />
+            <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;Name : <input type="text" name="Name1" value="" size="60" />
+            <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;GPA : <input type="text" name="Gpa1" value="" />
+            <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="Update" name="UpdateButton" />
+        </form>
+        <br>
+        <form id = "Dl" action="DB" Name = "Delete">
+            <h1>Delete from DataBase</h1>
+            &nbsp;Select Delete Name : <input type="text" name="name2" value="" size="60" />
+            <br>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="Delete" name="DeleteButton" />
+        </form>
+    </body>
+</html>
